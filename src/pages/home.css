@@ -1,0 +1,44 @@
+.inno_home_container{
+padding: 1rem 8rem;
+text-align: center;
+justify-content: center;
+
+}
+.inno_home_principal{
+    width:100%;  
+    margin-top: 80px;  
+} 
+
+.inno_home_links{
+    display: inline-flex;
+    padding:1rem;
+}
+
+.inno_home_links a{
+    width:190px;
+    padding: 8px 8px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right:10px;
+    margin-left:10px;
+    text-decoration:none;
+    border: 2px solid #0844A4;
+    color:#0844A4;
+    border-radius:30px; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    cursor:pointer;
+}
+
+    .inno_home_links .active{
+        background-color: #2678F3 ;
+        color:white;
+        border:2px solid #2678F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    .inno_home_p{
+        margin:0 auto;
+        width:40%;
+    }

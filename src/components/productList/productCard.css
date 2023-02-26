@@ -1,0 +1,37 @@
+.inno_productCard{
+    display:flex;
+    margin-top:20px;
+    cursor:pointer;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 5px #aaaaaa;
+    padding: 1em 1em;
+}
+
+.inno_productCard img{
+    height:80px;
+    padding-right: 0.5em;
+    position:relative;
+}
+
+.inno_productCard_right{
+    text-align: justify;
+}
+
+.inno_productCard_name{
+    font-weight: bold;
+    float:left;
+
+}
+
+.inno_productCard_price{
+    font-weight: bold;
+    position:relative;
+    float:right;
+    flex-direction: row-reverse; 
+}
+
+.inno_productCard_category{
+    display:inline-block;
+    font-weight: lighter;
+    width:100%;  
+}

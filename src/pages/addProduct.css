@@ -1,0 +1,89 @@
+
+
+    .inno_home_container_ap{
+        display: flex; 
+        width:100%;
+        
+        }
+        
+    .inno_home_principal_ap{
+            height:fit-content;
+            margin-left:80px;
+       
+        }
+    
+    .inno_form_addproduct{
+        margin-right:120px;
+        
+    }
+    
+    .inno_form_catprice {
+        align-items:center;
+        padding-top: 0.3em;
+        display: -webkit-box;
+    }
+    .inno_form_catprice input{
+        align-items:center;
+        width: 85%;
+    
+    }
+    
+    .inno_form_catprice select{
+        align-items:center;
+        width: 70%;
+    }
+    
+    .inno_form_cat{
+        width: 50%;
+    }
+    
+    .inno_form_price{
+        width: 50%;
+    }
+    
+    .inno_form_addproduct input[type=text],input[type=number], select, textarea {
+        display: block;
+        padding: 5px 35px 5px 10px;
+        border-radius: 30px;
+        border:none;
+        height:28px;
+       width:100%;
+      }
+    
+    .inno_form_addproduct label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+        font-weight: bold;
+      }
+      
+      .inno_form_addproduct button{
+        background-color: #75a9f9;
+        padding: 8px 8px;
+        color:white;
+        border:none;
+        display:block;
+        text-decoration:none;
+        border-radius:30px; 
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+        margin: 15px auto;
+        display:flex;
+        
+    }
+    
+    
+    .inno_addform_errorsMsg{
+        color: red;
+        font-weight: bold;
+        font-size: smaller;
+        margin-top:5px;
+    }
+    
+
+    @media screen and (max-width:840px){
+
+        
+    }
+    
+      
