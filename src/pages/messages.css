@@ -1,0 +1,11 @@
+.inno_msg_container{
+display: flex;
+padding: 1rem 8rem;
+
+}
+
+.inno_msg_principal{
+    width:100%;
+    height:fit-content;
+    margin-left:70px;
+} 
